@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         var nume1 = Double (num1TF.text!)
         var nume2 = Double (num2TF.text!)
         var result = Double (nume1! - nume2!)
-        respuestaLabel.text = "La Suma es: \(result)"
+        respuestaLabel.text = "La Resta es: \(result)"
         num1TF.text = ""
         num2TF.text = ""    }
     
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         var nume1 = Double (num1TF.text!)
         var nume2 = Double (num2TF.text!)
         var result = Double (nume1! * nume2!)
-        respuestaLabel.text = "La Suma es: \(result)"
+        respuestaLabel.text = "La Multiplicación es: \(result)"
         num1TF.text = ""
         num2TF.text = ""    }
     
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         var nume1 = Double (num1TF.text!)
         var nume2 = Double (num2TF.text!)
         var result = Double (nume1! / nume2!)
-        respuestaLabel.text = "La Suma es: \(result)"
+        respuestaLabel.text = "La Divición es: \(result)"
         num1TF.text = ""
         num2TF.text = ""    }
     
